@@ -31,7 +31,7 @@ def DFS(self,tree):
 
 ## 广度优先BFS代码模板：python
 ### 非递归写法：（使用队列）
-”“”
+'''
 def BFS(graph,start,end):
     visited = set()
     queue = []
@@ -43,11 +43,11 @@ def BFS(graph,start,end):
         node = generate_related_nodes(node)
         queue.push(nodes)
     #other processing work
-“”“
+'''
 
 # 2、二分查找的条件：单调、存在边界
 ## 二分查找代码模板：
-”“”
+'''
 left=0
 right=len(array)-1
 while left<=right:
@@ -59,4 +59,4 @@ while left<=right:
 		left = mid+1
 	else:
 		right = mid-1
-“”“
+'''
