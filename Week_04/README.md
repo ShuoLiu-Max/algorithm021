@@ -1,6 +1,6 @@
 # 学习笔记：
 ## 1、深度优先DFS代码模板：python
-### 递归写法：
+### *递归写法：*
 ```
 visited = set()
 def dfs(node,visited):
@@ -14,7 +14,7 @@ def dfs(node,visited):
         if next_node not in visited:
             dfs(next_node,visited)
 ```
-### 非递归写法：(使用栈)
+### *非递归写法：(使用栈)*
 ```
 def DFS(self,tree):
     if tree.root is None:
@@ -30,7 +30,7 @@ def DFS(self,tree):
 
 
 ## 广度优先BFS代码模板：python
-### 非递归写法：（使用队列）
+### *非递归写法：（使用队列）*
 ```
 def BFS(graph,start,end):
     visited = set()
